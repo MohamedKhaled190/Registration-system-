@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/all.min.css">
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>home</title>
+</head>
+<body>
+<div id="homePage">
+  <nav class="navbar navbar-expand-lg px-5">
+    <div class="container-fluid">
+      <a class="navbar-brand text-light" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+          <button class="btn px-1 py-0"><a class="nav-link active text-light" aria-current="page" href="./login.html">Log Out</a></button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+ 
+
+  <main class=" container m-5 p-5 rounded mx-auto bg-light shadow">
+    <header class="row ">
+      <div class="col-lg-12">
+       <div class="d-flex justify-content-center gap-3  text-primary">
+
+         <h1 id="Hcontnet" class="text-decoration-underline"></h1>
+     </div>
+      </div>
+    </header>
+
+    <section id="addTask" class="mt-5">
+      <div class="row ">
+       <div class="col-lg-12 position-relative ">
+         <input type="text" class="form-control-lg form-control"  id="addInput" placeholder="Add New Task ..." >
+         <div class="d-flex gap-2 w-auto position-absolute top-50 add">
+           <input type="date" name="clenderButton" class="form-control" id="dateInput"  >
+           <button class="btn btn-primary" id="addButton" >Add</button>
+          </div>
+
+       </div>  
+      </div>
+    </section>
+
+    <section id="display" class="mt-5">
+     <div class="row" id="TaskContent">
+
+      </div>
+     </div>
+    </section>
+ </main>
+</div>
+
+  <script src="./main.js"></script>
+</body>
+</html>

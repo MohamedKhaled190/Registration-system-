@@ -1,0 +1,78 @@
+*{
+
+    padding: 0px;
+    margin: 0px;
+}
+#signUp ,#login{
+    height: 100vh;
+    background-image:linear-gradient(to right, rgba(1, 21, 39,0.9),rgba(1, 21, 39,0.9),rgba(0, 0, 0, 0)), url(https://images.template.net/109733/mountain-sunset-background-edit-online.jpg) ;
+    background-position: center;
+    background-size: cover;
+}
+
+#signUp .inputName input ,#login .inputName input{
+    width: calc(98% /2);
+}
+#signUp .content, #login .content{
+    width: 35%;
+}
+#signUp .container ,#login .container {
+    height: 90%;
+}
+
+.loginlink ,.signLink{
+    color: rgb(255, 123, 75);
+}
+.loginlink:hover ,.signLink:hover{
+    color: rgb(255, 68, 0);
+    transition: all 0.3s;
+}
+.btn {
+    background-color:rgb(255, 123, 75); 
+    transition: all 0.3s;
+}
+.btn:hover{
+    background-color:rgb(255, 68, 0);
+}
+.form-control{
+    background-color: rgb(199, 199, 199);
+}
+.form-control:focus{
+    background-color:  rgb(220, 220, 220);
+    border: 1px solid rgb(255, 68, 0);
+    box-shadow: transparent 0px 0px 0px;
+}
+#spandot{
+    width: 8px;
+    height: 8px;
+    background-color: rgb(255, 123, 75);
+    border-radius: 50%;
+}
+
+/* home page */
+#homePage{
+    background-image:linear-gradient( rgba(0, 0, 0,0.5),rgba(0, 0, 0,0.5)), url(https://images.template.net/109733/mountain-sunset-background-edit-online.jpg) ;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.navbar{
+background-color: rgba(0, 0, 0, 0.3);
+}
+ #alertlogin, #alertsign{
+    display: none;
+ }
+ .add{
+    right: 20px;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+  }
+  i{
+    cursor: pointer;
+  }
+  #Hcontnet{
+    color: rgb(255, 68, 0);
+  }
